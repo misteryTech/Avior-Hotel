@@ -1,0 +1,35 @@
+.avior-events .btn-check:checked + .btn, :not(.btn-check) + .btn:active, .btn:first-child:active, .btn.active, .btn.show {
+  color: var(--bs-btn-active-color);
+  background-color: #1c5c54;
+  border-color: #1c5c54;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #ffff!important;
+  border-color: #ffff!important;
+  color: #1c5c54;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1c5c54;
+  border-color: #1c5c54;
+}
+
+.avior-events:hover {
+  color: #1c5c54;
+}
+
+.bg-dark {
+  background-color: #e6e7e7 !important;
+}
+
+.avior.logo {
+  height: 150;
+  width: 200px;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #1c5c54;
+}
+
